@@ -1,0 +1,53 @@
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7rem;
+    margin-top: 8.5rem;
+}
+.left > h5{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: auto;
+    font-family: "Montserrat-medium";
+}
+.left > p {
+ color: #A3A3A3;
+ font-style: normal;
+ font-family: 'Avenir';
+ font-weight: 350;
+ font-size: 12px;
+ line-height: 160%;
+}
+.Mainimages{
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0rem;
+    }
+    .left > h5{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .left > p {
+     color: #A3A3A3;
+     font-style: normal;
+     font-family: 'Avenir';
+     font-weight: 350;
+     font-size: 17px;
+     line-height: 160%;
+     text-align: center;
+     padding-left: 1rem;
+     padding-right: 1rem;
+
+    }
+  }

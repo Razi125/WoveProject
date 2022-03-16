@@ -1,0 +1,95 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.heading{
+    color:#FFFFFF ;
+    font-size: 3rem;
+    font-family: "Montserrat";
+    line-height: 110%;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -22rem;
+}
+.paraGraph{
+  color: #D4D4D4;
+  font-style: normal;
+  font-family: 'Avenir';
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 130%;
+  font-family: 'Avenir';
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.customSearch {
+    position: relative;
+    width: 500px;
+  }
+  .customSearchInput {
+    width: 100%;
+    border-radius: 100px;
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #262626;
+    border: 1px solid #404040;
+    border-radius: 56px;
+    height: 3rem;
+    font-family: 'Avenir';
+  }
+  .customSearchBotton {
+    position: absolute;
+    font-family: 'Montserrat';
+    right: 3px; 
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background: #0585F2;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 100px;
+    z-index: 2;
+    width: 12rem;
+    font-size: 10px;
+    font-family: 'Avenir';
+  }
+
+  @media only screen and (max-width: 900px) {
+    .main{
+      margin-left: -11rem;
+      margin-top: -13rem;
+    }
+    .heading{
+      align-items: center; 
+      margin-left: 8rem; 
+      margin-top: 0rem; 
+  }
+  .paraGraph{
+    font-size: 17px;
+    margin-left: 11rem;
+  }
+  
+  .customSearch {
+    position: relative;
+    width: 370px;
+    margin-left: 9rem;
+  }
+  .customSearchInput {
+    width: 100%;
+    border-radius: 56px;
+    height: 2.5rem;
+  }
+  .customSearchBotton {
+    width: 8rem;
+  }
+  }
+
+  

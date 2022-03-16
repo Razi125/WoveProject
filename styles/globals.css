@@ -5,12 +5,52 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
-
-* {
+.main {
   box-sizing: border-box;
+  background-color: #000000;
+  margin: auto;
 }
+
+/* Montserrat  */
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/static/Montserrat-Bold.ttf);
+}
+
+/* / Montserrat Medium / */
+@font-face {
+  font-family: "Montserrat-medium";
+  src: url(../fonts/static/Montserrat-Regular.ttf);
+}
+
+/* / Montserrat light / */
+@font-face {
+  font-family: "Montserrat-light";
+  src: url(../fonts/static/Montserrat-Light.ttf);
+}
+
+/* / AvenirLTStd-Black */
+@font-face {
+  font-family: "Avenir";
+  src: url(../fonts/AvenirLTStd-Book.otf);
+}
+
+.montserrat {
+  font-family: "Montserrat";
+}
+.montserrat-medium {
+  font-family: "Montserrat-medium";
+}
+.montserrat-light {
+  font-family: "Montserrat-light";
+}
+
+.avenir {
+  font-family: "Avenir";
+}
+
+  
